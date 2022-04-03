@@ -1,6 +1,6 @@
 # StyleGANXL+CLIP notebook
 
-A notebook to generate Out-of-Domain images from text using the new StyleGAN-XL[^1] and CLIP[^2].
+A notebook for Out-of-Domain text-based image generation using the new StyleGAN-XL[^1] and CLIP[^2].
 
 <a href="https://colab.research.google.com/github/CasualGANPapers/unconditional-StyleGANXL-CLIP/blob/main/StyleganXL%2BCLIP.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg"
@@ -8,10 +8,18 @@ A notebook to generate Out-of-Domain images from text using the new StyleGAN-XL[
   />
 </a>
 
-This is a work in progress. Currently, the main points to improve are:
+This is a work in progress. Currently, the main improvement points are:
 
-- Find a way to improve the generation process, since it tends to become noisy and chaotic.
+- Find a way to stabilize and improve the generation process, since it tends to become noisy and chaotic.
 - Figure out the best optimizer and it's values.
+
+### Examples
+
+| ![](misc/judo.jpg) | ![](misc/ant.jpg) | ![](misc/apple.jpg) |
+| ----------- | ----------- | ----------- |
+| **Two judo athletes fighting** | **An ant** | **A red apple** |
+
+### Acknowledgements
 
 The notebook is largely based on code by [Katherine Crowson](https://github.com/crowsonkb) and [nshepperd](https://github.com/nshepperd).
 
